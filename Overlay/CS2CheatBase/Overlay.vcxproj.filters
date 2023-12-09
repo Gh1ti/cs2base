@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\imgui\imstb_truetype.h" />
+    <ClInclude Include="external\imgui\imstb_textedit.h" />
+    <ClInclude Include="external\imgui\imstb_rectpack.h" />
+    <ClInclude Include="external\imgui\imgui_internal.h" />
+    <ClInclude Include="external\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="external\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="external\imgui\imconfig.h" />
+    <ClInclude Include="external\imgui\imgui.h" />
+    <ClInclude Include="CsItems\memory.h" />
+    <ClInclude Include="CsItems\Offsets.h" />
+    <ClInclude Include="CsItems\Vector.h" />
+    <ClInclude Include="CsItems\Entity.h" />
+    <ClInclude Include="CsItems\utils.h" />
+    <ClInclude Include="overlayrender.h" />
+    <ClInclude Include="helpers\helpers.h" />
+    <ClInclude Include="CsItems\globals.h" />
+    <ClInclude Include="helpers\menu.h" />
+    <ClInclude Include="fonts\Impact.h" />
+    <ClInclude Include="fonts\Pixel.h" />
+    <ClInclude Include="fonts\Verdana.h" />
+    <ClInclude Include="fonts\Fonts.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="CsItems\hacks.h" />
+    <ClInclude Include="http.h" />
+  </ItemGroup>
+</Project>
